@@ -16,7 +16,7 @@
     </head>
     <body>
         <div class="header">
-            <div id="student">Астанин Владислав</div>
+            <div id="student" onclick="StudentInfo()">Астанин Владислав</div>
             <div class="language">
                 <input type="button" value="ru" onclick="setRussian()">
                 <input type="button" value="en" onclick="setEnglish()">
@@ -25,7 +25,7 @@
 
         <div class="content">
             <form>
-                <div>
+                <div id="user-data">
                     <div>
                         <span id="your-name">Ваше имя</span>: <input type="text" id="input-name" placeholder="введите имя">
                     </div>
@@ -43,7 +43,7 @@
             </form>
         </div>
 
-        <div class="footer" id="footer">
+        <div class="footer" id="footer" " onclick = "FooterInfo()">
             Факультет бизнеса, ФБИ-01, 3 курс, 2022 
         </div>   
     </body>
